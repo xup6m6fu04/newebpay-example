@@ -1,4 +1,12 @@
 {
+    "name": "xup6m6fu04/newebpay-example",
+    "description": "A example for newebpay API service.",
+    "authors": [
+        {
+            "name": "xup6m6fu04",
+            "email": "sarah82529@gmail.com"
+        }
+    ]
     "require": {
         "ext-json": "*",
         "monolog/monolog": "^3.2",
