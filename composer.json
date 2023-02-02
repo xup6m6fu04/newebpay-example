@@ -6,7 +6,7 @@
             "name": "xup6m6fu04",
             "email": "sarah82529@gmail.com"
         }
-    ]
+    ],
     "require": {
         "ext-json": "*",
         "monolog/monolog": "^3.2",
