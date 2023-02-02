@@ -19,11 +19,11 @@ $newebpay = $newebpay->payment(
     $_POST['MerchantOrderNo'] ?: generateRandomString(), // 訂單編號
     $_POST['Amt'] ?: random_int(10, 1000), // 訂單金額
     $_POST['ItemDesc'] ?: '測試商品 - ' . generateRandomString(6), // 商品名稱
-    $_POST['Email'] ?: 'sarah82529@gmail.com' // 付款人電子信箱
+    $_POST['Email'] ?: 'test@gmail.com' // 付款人電子信箱
 );
 // 要更改設定用 ->set + 屬性名稱 (ex: setReturnURL)
-$newebpay->setReturnURL('https://1ca9-1-162-18-21.jp.ngrok.io/src/return.php');
-$newebpay->setNotifyURL('https://1ca9-1-162-18-21.jp.ngrok.io/src/notify.php');
+$newebpay->setReturnURL('https://495e-1-162-18-21.jp.ngrok.io/src/return.php');
+$newebpay->setNotifyURL('https://495e-1-162-18-21.jp.ngrok.io/src/notify.php');
 $newebpay->setTokenTerm($_POST['Email']);
 // 送出表單
 echo $newebpay->submit();
