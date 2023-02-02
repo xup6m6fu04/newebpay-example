@@ -1,0 +1,16 @@
+{
+    "require": {
+        "ext-json": "*",
+        "monolog/monolog": "^3.2",
+        "vlucas/phpdotenv": "^5.5",
+        "xup6m6fu04/newebpay-sdk-php": "^1.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
