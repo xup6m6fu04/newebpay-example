@@ -4,4 +4,4 @@
 
 詳細使用教學請參考我的 Medium
 
-https://link.medium.com/APIkOmJz6wb
+https://link.medium.com/U9VNTOuA6wb
