@@ -10,7 +10,7 @@ ini_set('display_errors', '1');
 error_reporting(E_ALL);
 
 /**
- * 藍星回調記錄到 Log
+ * 藍新回調記錄到 Log
  */
 $log = new Logger('logger');
 $log->pushHandler(new StreamHandler('Log/api.log', Level::Debug));

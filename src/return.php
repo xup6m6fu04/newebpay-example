@@ -9,7 +9,7 @@ ini_set('display_errors', '1');
 error_reporting(E_ALL);
 
 /**
- * 藍星交易結果返回頁
+ * 藍新交易結果返回頁
  */
 header('Content-Type: application/json');
 
